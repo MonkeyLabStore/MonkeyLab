@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrello</title>
+    <link rel="stylesheet" href="Carrello.css">
+</head>
+<body>
+  <header>
+      <nav>
+          <div class="logo">
+              <img src="Scritta ML.png" alt="Logo" class="logo-image">
+          </div>
+          <ul class="nav-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Categorie</a></li>
+              <li><a href="#">Offerte</a></li>
+              <li><a href="#">Chi siamo</a></li>
+              <li><a href="#">Contatti</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Supporto</a></li>
+          </ul>
+          <div class="nav-right">
+              <div class="search-bar">
+                  <input type="text" placeholder="Cerca...">
+              </div>
+              <div class="account-link">
+                  <a href="Utente.html">Account</a>
+              </div>
+          </div>
+      </nav>
+  </header>
+    <main>
+        <section class="cart">
+            <h1>Il tuo carrello</h1>
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>Prodotto</th>
+                        <th>Prezzo</th>
+                        <th>Quantità</th>
+                        <th>Totale</th>
+                        <th>Azioni</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Prodotto 1</td>
+                        <td>€100.00</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>€100.00</td>
+                        <td><button class="remove">Rimuovi</button></td>
+                    </tr>
+                    <tr>
+                        <td>Prodotto 2</td>
+                        <td>€150.00</td>
+                        <td><input type="number" value="2" min="1"></td>
+                        <td>€300.00</td>
+                        <td><button class="remove">Rimuovi</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="cart-summary">
+                <p>Totale parziale: €400.00</p>
+                <p>Spese di spedizione: €10.00</p>
+                <p><strong>Totale: €410.00</strong></p>
+                <button class="checkout">Procedi al Checkout</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Informazioni</h3>
+                <p>Sito Shop Online - Via Roma 123, 00100 Roma (RM)</p>
+                <p><strong>Email:</strong> info@sitoshoponline.it</p>
+                <p><strong>Telefono:</strong> +39 0123 456789</p>
+            </div>
+            <div class="footer-section">
+                <h3>Links Utili</h3>
+                <ul>
+                    <li><a href="#">Termini e condizioni</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Spedizioni</a></li>
+                    <li><a href="#">Resi</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Seguici</h3>
+                <div class="social-media">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Sito Shop Online. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+</body>
+</html>

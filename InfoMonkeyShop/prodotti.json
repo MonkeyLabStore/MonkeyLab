@@ -1,0 +1,57 @@
+[
+    {
+        "id": "1",
+        "nome": "ORSO MULTISTRATO DECORATIVO",
+        "prezzo": 20,
+        "descrizione": "ORSO MULTISTRATO DECORATIVO: Stampato in 3d, Materiale colorato, misura standard.",
+        "immagine": "Foto Prodotti/450600852_1164819564637767_467958120978499722_n.jpg",
+        "1immagine": "Foto Prodotti/450600852_1164819564637767_467958120978499722_n.jpg",
+        "2immagine": "Foto Prodotti/450600852_1164819564637767_467958120978499722_n.jpg",
+        "3immagine": "Foto Prodotti/450600852_1164819564637767_467958120978499722_n.jpg",
+        "categoria": "categorie1",
+        "url": "https://www.bing.com/search?q=orso&pc=COS2&ptag=D062321-N0640AF30FAE38D3&form=CONBDF&conlogo=CT3334466",
+        "ProdottiEvidenza": true,
+        "Offerte": true,
+        "prodotto": true,
+        "valutazione": 2
+    },
+    {
+        "id": "2",
+        "nome": "ORSO MULTISTRATO DECORATIVO",
+        "prezzo": 20,
+        "descrizione": "ORSO MULTISTRATO DECORATIVO: Stampato in 3d, Materiale colorato, misura standard.",
+        "immagine": "",
+        "categoria": "categorie1",
+        "url": "https://it.pinterest.com/",
+        "ProdottiEvidenza": false,
+        "Offerte": false,
+        "prodotto": false,
+        "valutazione": 3
+    },
+    {
+        "id": "3",
+        "nome": "ORSO MULTISTRATO DECORATIVO",
+        "prezzo": 20,
+        "descrizione": "ORSO MULTISTRATO DECORATIVO: Stampato in 3d, Materiale colorato, misura standard.",
+        "immagine": "",
+        "categoria": "categorie1",
+        "url": "https://it.pinterest.com/",
+        "ProdottiEvidenza": false,
+        "Offerte": false,
+        "prodotto": false,
+        "valutazione": 2
+    },
+    {
+        "id": "4",
+        "nome": "Prodotto 2",
+        "prezzo": 150.00,
+        "descrizione": "Descrizione del prodotto 2",
+        "immagine": "product2.jpg",
+        "categoria": "Halloween",
+        "url": "https://subito.it/prodotti?id=1",
+        "ProdottiEvidenza": false,
+        "Offerte": false,
+        "prodotto": false,
+        "valutazione": 5
+    }
+]

@@ -1,0 +1,299 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    margin: 0 0 1em 0;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 1em 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.logo-image {
+    width: 200px;
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 1em;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #FE1721; /* Updated hover color */
+}
+
+.search-bar {
+    position: relative;
+}
+
+.search-bar input {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+.search-bar input:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.account-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-left: 1em;
+    transition: color 0.3s ease;
+}
+
+.account-link a:hover {
+    color: #FE1721; /* Updated hover color */
+}
+
+/* Layout per immagine e testo nella sezione prodotto */
+.product-detail {
+    display: flex; /* Usa Flexbox per creare due colonne */
+    gap: 2em; /* Spaziatura tra l'immagine e il testo */
+    align-items: flex-start; /* Allinea gli elementi all'inizio verticalmente */
+    margin: 2em 0;
+}
+
+.product-images {
+    flex: 1; /* Assegna una larghezza flessibile alla colonna delle immagini */
+    max-width: 50%; /* Limita la larghezza massima al 50% */
+    text-align: center; /* Centra l'immagine */
+}
+
+.product-info {
+    flex: 1; /* Assegna una larghezza flessibile alla colonna del testo */
+    max-width: 50%; /* Limita la larghezza massima al 50% */
+}
+
+/* Mantieni il resto dello stile già presente per immagini e testo */
+.product-detail .product-images img {
+    max-width: 100%; /* Limita la larghezza massima dell'immagine */
+    height: auto; /* Mantiene le proporzioni */
+    object-fit: contain; /* Evita di tagliare l'immagine */
+    border-radius: 15px; /* Smussa gli angoli dell'immagine */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Aggiunge una leggera ombra */
+    margin: 0 auto; /* Centra l'immagine */
+}
+
+.thumbnails img {
+    max-width: 20%;
+    height: auto;
+    margin-right: 0.5em;
+    cursor: pointer;
+}
+
+.product-info h1 {
+    margin-top: 0;
+    font-size: 2em; /* Match heading size */
+}
+
+.product-item {
+    display: block;
+}
+
+.product-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.product-link:hover {
+    background-color: #0056b3;
+}
+
+.price {
+    color: #b12704;
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.description {
+    margin: 1em 0;
+    line-height: 1.4; /* Improved readability */
+}
+
+.options {
+    margin: 1em 0;
+}
+
+.options label {
+    margin-right: 0.5em;
+}
+
+.add-to-cart {
+    background-color: #f0c14b;
+    border: none;
+    padding: 0.8em 1.5em;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 25px;
+    outline: none;
+}
+
+.add-to-cart:hover {
+    background-color: #e1a158;
+    transform: scale(1.05); /* Effetto di ingrandimento al passaggio del mouse */
+}
+
+.add-to-cart:active {
+    background-color: #c89f3a; /* Cambio colore al click */
+}
+
+/* Reviews */
+.reviews {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.reviews h2 {
+    margin-bottom: 1em;
+    font-size: 2em;
+    color: #2c3e50;
+}
+
+.review-item {
+    background-color: #e2e2e2;
+    padding: 1em;
+    margin: 0.5em 0;
+    border-radius: 15px;
+}
+
+.review-item p {
+    margin: 0.5em 0;
+    line-height: 1.4;
+}
+
+/* Footer */
+footer {
+    background-color: #191919;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+    font-size: 0.9em;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1 1 calc(33% - 1em);
+    margin: 1em;
+}
+
+.footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    color: white;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.5em;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #FE1721;
+}
+
+.social-media a {
+    color: #fff;
+    margin: 0 0.5em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #FE1721;
+}
+
+.copyright {
+    margin-top: 1em;
+}
+
+.add-to-cart {
+    display: flex;
+    align-items: center;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.subito-logo {
+    width: 20px;
+    height: auto;
+    margin-right: 8px;
+}
